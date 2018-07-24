@@ -1,0 +1,29 @@
+[user]
+	name = Jérémy BOIVIN
+	email = email@host.fr
+[push]
+	default = simple
+
+[alias]
+	st = status -suno
+	sta = status -s
+	ci = commit
+	ca = commit --amend
+	co = checkout
+	l = log --oneline --graph --decorate
+	la = log --oneline --graph --all --decorate
+	las = log --oneline --graph --all --decorate --simplify-by-decoration
+	b = branch -v
+	ba = branch -av
+	d = diff
+	dc = diff --cached
+	fix = commit --fixup
+	rb = rebase
+	rbc = rebase --continue
+	rba = rebase --abort
+	rbi = rebase -i --autosquash
+	pk = cherry-pick
+	pick = cherry-pick
+	fe = fetch origin -p
+	rborigdev = rebase origin/develop
+	rbdev = rebase develop
